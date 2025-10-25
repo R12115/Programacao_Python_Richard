@@ -17,7 +17,6 @@ Aliquota_desconto = 0.1
 
 consumo = float(input('Digite o consumo da residencia (Kw): '))
 salario_minimo = 1518
-vlr100_kw = salario_minimo / 7
 vlrKw = (salario_minimo / 7) / 100
 vlr_conta = consumo * vlrKw
 desconto = vlr_conta - (vlr_conta*Aliquota_desconto)

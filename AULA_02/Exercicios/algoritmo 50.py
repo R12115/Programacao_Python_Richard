@@ -14,7 +14,7 @@ altura = int(input('Digite o valor da altura: '))
 
 perimetro = 2 *(base + altura)
 area = base * altura
-diagonal = m.pow(base,2) + m.pow(altura,2)
+diagonal = m.sqrt(m.pow(base,2) + m.pow(altura,2))
 
 
 print(f'Perímetro: {perimetro} \nÁrea: {area} \nDiagonal: {diagonal}')
