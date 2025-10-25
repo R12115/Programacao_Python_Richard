@@ -9,6 +9,6 @@ ser impresso.
 
 informacao = input("Digite a informação: ")
 
-inverso = str(reversed(informacao))
+inverso = informacao[::-1]
 
 print(inverso)
