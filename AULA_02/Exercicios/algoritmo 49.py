@@ -13,6 +13,7 @@ os dois últimos:
 import os
 os.system('cls')
 
+
 nome = input('Digite um nome: ')
 
 print(f'Nome: {nome} \nPrimeiro caractere: {nome[0]} \nÚltimo caractere: {nome[len(nome)-1]} \nPrimeiro até o terceiro: {nome[0:3]} \nQuarto caractere: {nome[3]} \nTodos menos o primeiro: {nome[1:]} \nOs dois últimos: {nome[-2:]}')
